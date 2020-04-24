@@ -45,7 +45,7 @@ a {
 header {
     height: 50px;
     width: 100%;
-    background-color: #8B42A7;
+    background-color: #8B45FF;
     position :fixed;
     top: 0;
     z-index: 10;
@@ -156,7 +156,7 @@ header {
 
 /* Footer */
 footer {
-    background-color: #4D4D4D;
+    background-color: #8B45FF;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;

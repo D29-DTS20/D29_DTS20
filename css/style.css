@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Futura Md BT";
+}
+  
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.heading {
+    padding-top: 1px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.heading h1 {
+    font-size: 25px;
+    width: 100%;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.garis {
+    height: 5px;
+    width: 60px;
+    padding: 2px;
+    margin: auto;
+    margin-top: -10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+/* Header Section */
+header {
+    height: 50px;
+    width: 100%;
+    background-color: #8B42A7;
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+  
+.logo {
+    width: 125px;
+    margin-top: 10px;
+}
+  
+.header {
+    float: left;
+}
+
+.circle{
+    background-color: white;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    opacity: 0.7;
+    float: left;
+    margin-left: 10px;   
+}
+
+.circle:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.icon{
+    color: #8B42A7;
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Bagian Utama */
+.bagian-utama {
+    padding: 120px 0 100px 0;
+    background-color: #f7f7f7;
+    text-align: center;
+    color: #4B4B4B;
+    height: 500px;
+}
+
+.bagian-utama h1 {
+    font-size: 35px;
+    margin-top: 8px;
+}
+
+.bagian-utama p {
+    margin-top: -30px;
+    font-family: "Futura Bk BT";
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+  
+ /* Bagian Extra 1 */
+.bagian-extra1 {
+    height: 500px;
+    background-color: #CC4A66;
+    text-align: center;
+}
+
+.myteam {
+    margin-top: 20px;
+}
+
+.profile {
+    float: left;
+    width: 20%;
+    opacity: 0.6; 
+}
+
+.profile:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.bagian-extra1 h2{
+    width: 90%;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.quotes{
+    width: 80%;
+    display: inline-block;
+    margin-top: -8px;
+    font-size: 15px;
+    color: white;
+    font-style: italic;
+}
+
+/* Bagian Extra 2 */
+.bagian-extra2 {
+    height: 380px;
+    background-color: #8B45AE;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.bagian-extra2 p{
+    color: white;
+    font-family: "Futura Bk BT";
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #A345B5;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+footer p{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.footer-left{
+    float: left;
+}
+
+.footer-right{
+    float: right;
+    margin-top: 8px;
+}
+
+/* Typing */
+
+.typing{
+    margin-top: 80px;
+}
+
+#typeline {
+    font-weight: bold;
+    color: #4B4B4B;
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+

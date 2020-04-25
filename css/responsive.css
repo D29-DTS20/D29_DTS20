@@ -1,10 +1,10 @@
 @media all and (max-width: 1200px) {
     .bagian-extra1{
-        height: 1150px;
+        height: 800px;
     }
 
     .profile {
-        width: 50%;
+        width: 33%;
         margin-bottom: 50px;
     }
 
@@ -15,12 +15,28 @@
 
 @media all and (max-width: 800px) {
     .bagian-extra1{
-        height: 1200px;
+        height: 1070px;
     }
 
     .profile {
         width: 50%;
         margin-bottom: 50px;
+    }
+
+    .our-services{
+        height: 450px;
+    }
+
+    .service{
+        width: 33%;
+    }
+
+    .our-project{
+        height: 520px;
+    }
+
+    .project{
+        width: 100%;
     }
 
     .bagian-extra2{
@@ -30,12 +46,28 @@
 
 @media all and (max-width: 500px) {
     .bagian-extra1{
-        height: 1900px;
+        height: 1750px;
     }
 
     .profile {
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    .our-services{
+        height: 950px;
+    }
+
+    .service{
+        width: 100%;
+    }
+
+    .our-project{
+        height: 520px;
+    }
+
+    .project{
+        width: 100%;
     }
 
     .bagian-extra2{
